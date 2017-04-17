@@ -42,17 +42,37 @@ header {
 	color: #fff;
 }
 
-.navbar-default .navbar-brand {
-	color: #fff;
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+
+.navbar-inverse {
+	border: none;
 }
 
 .navbar-brand { 
 	font-size: 30px;
+	line-height: 20px;
+	height: 65px;
+    padding: 20px 15px;
 }
 
 ul {
-	padding-top: 1.5em;
+	padding-top: 1em;
 }
+
+@media (min-width: 768px) {
+	.navbar-nav {
+   		float: right;
+   	}	
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #777;
+    background-color: #fff;
+}
+
 
 /*the font and color of headers and p*/
 
