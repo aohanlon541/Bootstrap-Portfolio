@@ -1,136 +1,121 @@
 * {
 	box-sizing: border-box;
-
 }
-
-html,
- {
-  	height: 100%;}
-
+html, {
+	height: 100%;
+}
 body {
 	background-image: url("../../assets/images/background-image.png");
 	background-color: #fff;
-	 margin-bottom: 60px;
+	margin-bottom: 60px;
 }
 
 /*The white area of the header*/
+
 header {
 	background-color: #fff;
 	border-bottom: #ccc 1px solid;
 }
 
 /* Wrapper for page content to push down footer */
-#wrap {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -60px;
-  /* Pad bottom by footer height */
-  padding: 0 0 60px;
-}
 
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 60px;
+}
 .navbar {
 	background-color: #fff;
-
 }
 
 /*the blue area of the header*/
+
 .navbar-header {
 	background-color: #4aaaa5;
 	font-size: 30px;
 	padding: 5px 20px;
 	color: #fff;
 }
-
 .navbar-inverse .navbar-brand {
-    color: #fff;
+	color: #fff;
 }
-
-
 .navbar-inverse {
 	border: none;
 }
-
-.navbar-brand { 
+.navbar-brand {
 	font-size: 30px;
 	line-height: 20px;
 	height: 65px;
-    padding: 20px 15px;
+	padding: 20px 15px;
 }
-
 ul {
 	padding-top: 1em;
 }
-
 @media (min-width: 768px) {
 	.navbar-nav {
-   		float: right;
-   	}	
+		float: right;
+	}
 }
-
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #777;
-    background-color: #fff;
+	color: #777;
+	background-color: #fff;
 }
-
 
 /*the font and color of headers and p*/
-
 
 h1, h2 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
-
 h2 {
 	color: #4aaaa5;
 }
-
 p, a, li {
 	color: #777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
 h2 {
 	color: #2F4F4F;
 	font-size: 24px;
 }
-
 p {
 	padding: 8px;
 	line-height: 175%;
 	font-size: 15px;
 }
-
 li {
 	font-size: 16.88px;
 	padding-right: 1em;
 }
+
+/* main image */ 
 
 .imgDiv img {
 	float: left;
 	width: 200px;
 	margin: 10px;
 }
-
-.row  {
+.row {
 	margin-bottom: 3em;
 }
-
 .panel-default {
 	margin: 10px;
 }
 
+/* social media icons */ 
 img.logo {
 	margin-left: 0;
 	padding-left: 0;
 	width: 5em;
 	height: 5em;
 }
-
 .connectImages img {
 	margin: .5em;
 }
 
+/* footer */ 
 footer {
 	background-color: #666666;
 	border-top: #4aaaa5 5px solid;
@@ -142,8 +127,10 @@ footer {
 	position: absolute;
 }
 
+
+
 @media only screen and (min-width: 960px) {
- 	.col-md-8 {
-    width: 60%;
+	.col-md-8 {
+		width: 60%;
 	}
 }

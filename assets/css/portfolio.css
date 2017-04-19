@@ -1,5 +1,5 @@
-
 /* the div around each portfolio element*/
+
 .work {
   position: relative;
   float: left;
@@ -7,17 +7,14 @@
   margin: 20px 15px 25px;
   overflow: auto;
 }
-
 .work:nth-child(even) {
   margin-right: 50px;
 }
-
 .work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
 }
-
 .work h3 {
   position: absolute;
   bottom: 1em;
@@ -30,12 +27,9 @@
   text-align: center;
   background: #4aaaa5;
 }
-
 h3 {
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
-
-
 footer {
-bottom: auto;
+  bottom: auto;
 }
